@@ -1,0 +1,41 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Quiz System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Online Quiz System</h1>
+
+    <form id="quizForm">
+
+        <h3>1. Python is a ______ ?</h3>
+        <input type="radio" name="q1" value="a"> Programming Language<br>
+        <input type="radio" name="q1" value="b"> Database<br>
+        <input type="radio" name="q1" value="c"> Browser<br>
+
+        <h3>2. HTML stands for?</h3>
+        <input type="radio" name="q2" value="a"> Hyper Text Markup Language<br>
+        <input type="radio" name="q2" value="b"> High Text Machine Language<br>
+        <input type="radio" name="q2" value="c"> Hyper Tool Markup Language<br>
+
+        <h3>3. CSS is used for?</h3>
+        <input type="radio" name="q3" value="a"> Styling Web Pages<br>
+        <input type="radio" name="q3" value="b"> Database<br>
+        <input type="radio" name="q3" value="c"> Operating System<br>
+
+        <br>
+        <button type="button" onclick="checkQuiz()">Submit</button>
+
+    </form>
+
+    <h2 id="result"></h2>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
